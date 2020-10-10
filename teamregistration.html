@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Registration | UTSAV</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/registration.css">
+  <script src="js/registration.js" type="text/javascript" rel="script"></script>
+</head>
+<body>
+<div>
+  <ul class="navbar">
+    <li class="n"><a href="https://dsvv.ac.in" target="_blank">DSVV</a></li>
+    <li class="n"><a href="contact.html">Contact</a> </li>
+    <li class="n"><a href="gallery.html">Gallery</a> </li>
+    <li class="n"><a href="records.html">Records</a> </li>
+    <li class="n"><a href="events.html">Events</a></li>
+    <li class="n"><a href="index.html">Home</a> </li>
+  </ul>
+</div>
+<h2>Registration for team events</h2>
+<form method="post">
+  <h3>Fill this form to register your team</h3>
+  Year:<br>
+  <input type="number" name="year" value="2021" readonly><br>
+  Team Name:<br>
+  <input type="text" name="team_name" placeholder="Enter your team's name" required size="30"><br>
+  Captain:<br>
+  <input type="text" name="captain" placeholder="Enter your captain's name" required size="30"><br>
+  Vice Captain:<br>
+  <input type="text" name="vice_captain" placeholder="Enter your vice captain's name" required size="30"><br>
+  Select Event:<br>
+  <select required>
+    <option value=" " disabled selected>-select event-</option>
+    <option value="badminton">Badminton</option>
+    <option value="basketball">Basketball</option>
+    <option value="carrom">Carrom</option>
+    <option value="cricket">Cricket</option>
+    <option value="football">Football</option>
+    <option value="kabaddi">Kabaddi</option>
+    <option value="khokho">Kho-Kho</option>
+    <option value="volleyball">Volleyball</option>
+  </select><br>
+  Mobile number:<br>
+  <input type="tel" name="mobile" placeholder="Enter your mobile number" required size="10"><br>
+  Email ID:<br>
+  <input type="email" name="email" placeholder="Enter your email address" required size="30"><br>
+  <br>
+<p>
+  <input class="s" type="submit" value="Register" onclick="if(confirm('Are you sure?')){success()}else{return false;};">
+
+</p>
+</form>
+</body>
+</html>
