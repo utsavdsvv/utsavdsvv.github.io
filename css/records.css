@@ -3,8 +3,7 @@ body{
 }
 
 .sports{
+  transition: 0.5s;
 
 }
-.sports:hover{
 
-}
