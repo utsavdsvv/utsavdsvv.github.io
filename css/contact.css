@@ -1,5 +1,7 @@
 .profile{
   float: left;
+  width: 50%;
+  height: fit-content;
 }
 #social{
   margin: 20px;
