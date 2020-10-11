@@ -1,0 +1,12 @@
+th{
+ font-size: 20px;
+background-color: red;
+  text-align: center;
+ }
+th, td {
+  padding: 15px;
+}
+table tr {
+  background-color: #eee;
+  text-align: center;
+}
