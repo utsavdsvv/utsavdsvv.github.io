@@ -12,10 +12,16 @@ a:hover {
 }
 .button1{
     position: absolute;
+    top:62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
     }
 .button2{
     position: absolute;
-
+    top:72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     }
     .btn{
       border: 1px solid #fff;
