@@ -12,16 +12,15 @@ a:hover {
 }
 .button1{
     position: absolute;
-    top:62%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
+    margin-top: 20%;
+    margin-left: 30%;
+  float: left;
     }
 .button2{
-    position: absolute;
-    top:72%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
+  float: left;
+  margin-top: 20%;
+    margin-left: 60%;
     }
     .btn{
       border: 1px solid #fff;
@@ -32,7 +31,7 @@ a:hover {
       background-color: blue;
       text-decoration: none;
       transition: 0.6s ease;
-      position: relative;
+      position: center;
     }
     .btn:hover{
     background-color: blue;
@@ -53,30 +52,38 @@ margin-right: 5%;
 }
 .top{
   text-align: center;
+  color: red;
+  background: antiquewhite;
+  alignment: center;
 }
 #slideshow {
   animation-name: background;
+  -moz-animation-name: background;
   animation-duration: 15s;
+  -moz-animation-duration: 15s;
   animation-direction: alternate;
+  -moz-animation-direction: alternate;
   animation-timing-function: linear;
+  -moz-animation-timing-function: ease;
   animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
 }
 
 @keyframes background {
   0% {
-    background-image: url(img/audi11.jpg);
+    background-image: url(img/2020utsav-min.jpg);
     background-size: cover;
   }
   33% {
-    background-image: url(img/basketball11.jpg);
+    background-image: url(img/2020cricketcs-min.jpg);
     background-size: cover;
   }
   66% {
-    background-image: url(img/kabaddig.jpg);
+    background-image: url(img/2020kabaddigirls-min.jpg);
     background-size: cover;
   }
   100%{
-    background-image: url(img/21-annual-function-2.jpg);
+    background-image: url(img/2020powerlifting-min.png);
     background-size: cover;
   }
 }
