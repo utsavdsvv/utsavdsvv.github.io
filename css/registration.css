@@ -27,9 +27,9 @@ option{
 h2{
     font-size: 30px;
   text-align: left;
-  background: antiquewhite;
   width: fit-content;
   padding: 2px;
+  margin-left: 10px;
 }
 
 .s{
@@ -54,6 +54,7 @@ h2{
     margin: 0 auto;
     position: relative;
     float: left;
+  margin-left: 20px;
 }
 p{
   margin-left: 25%;
