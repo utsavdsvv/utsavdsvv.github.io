@@ -5,125 +5,146 @@
   <title>Events | UTSAV</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/events.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div>
-  <ul class="navbar">
-    <li class="n"><a href="https://dsvv.ac.in" target="_blank">DSVV</a></li>
-    <li class="n"><a href="contact.html">Contact</a> </li>
-    <li class="n"><a href="gallery.html">Gallery</a> </li>
-    <li class="n"><a href="records.html">Records</a> </li>
-    <li class="n"><a href="events.html">Events</a></li>
-    <li class="n"><a href="index.html">Home</a> </li>
+<nav class="navbar sticky-xl-top container navbar-expand-xxl bg-primary navbar-dark">
+  <a class="navbar-brand" href="#">UTSAV</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="register.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Register
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="register.html">Know the Rules</a>
+          <a class="dropdown-item" href="teamregistration.html">Team Registration</a>
+          <a class="dropdown-item" href="indregistration.html">Individual Registration</a>
+        </div>
+      </li>
+    <li class="nav-item"><a class="nav-link" href="records.html">Records</a> </li>
+     <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a> </li>
+    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a> </li>
+    <li class="nav-item"><a class="nav-link" href="https://dsvv.ac.in" target="_blank">DSVV</a></li>
   </ul>
 </div>
+</nav>
 <br><br><br>
 <h2>
   Want to register for an event?
 </h2>
 <div class="ebutton">
-  <a href="register.html" class="btn">Register here</a>
+  <a href="register.html" class="btn btn btn-outline-primary btn-lg">Register here</a>
 </div>
 <h2>Upcoming Events:</h2>
-<div class="card">
+<div class="mycard">
   <h3>Cricket:</h3>
   <b>Computer Science</b> vs <b>Bsc</b><br>
   Date: 16-02-2021 <br>
   Time: 02:00 PM <br>
   venue: Cricket Ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Cricket:</h3>
   <b>B.A.</b> vs <b>Masters</b><br>
   Date: 17-02-2021 <br>
   Time: 02:00 PM <br>
   venue: Cricket Ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Cricket:</h3>
   <b>Yogic Science</b> vs <b>Animation</b><br>
   Date: 18-02-2021 <br>
   Time: 02:00 PM <br>
   venue: Cricket Ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Football:</h3>
   <b>Computer Science</b> vs <b>Bsc</b><br>
   Date: 19-02-2021 <br>
   Time: 03:00 PM <br>
   venue: Football Ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Football:</h3>
   <b>Computer Science</b> vs <b>Bsc</b><br>
   Date: 19-02-2021 <br>
   Time: 05:00 PM <br>
   venue: Football Ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Cricket:</h3>
   <b>BAJMC</b> vs <b>Masters</b><br>
   Date: 20-02-2021 <br>
   Time: 03:00 PM <br>
   venue: Cricket Ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Badminton:</h3>
   <b>League Matches</b><br>
   Date: 24-02-2021 <br>
   Time: 03:00 PM <br>
   venue: Badminton Court, GVP
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Volleyball:</h3>
   <b>League Matches</b><br>
   Date: 25-02-2021 <br>
   Time: 02:00 PM <br>
   venue: Volleyball court
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Kabaddi:</h3>
   <b>League Matches</b><br>
   Date: 26-02-2021 <br>
   Time: 04:00 PM <br>
   venue: Kabaddi ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Carrom:</h3>
   <b>League Matches</b><br>
   Date: 26-02-2021 <br>
   Time: 02:00 PM <br>
   venue: Gym hall
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Kho-Kho:</h3>
   <b>League Matches</b><br>
   Date: 27-02-2021 <br>
   Time: 07:00 AM <br>
   venue: Kho-Kho ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Chess:</h3>
   <b>League Matches</b><br>
   Date: 27-02-2021 <br>
   Time: 02:00 PM <br>
   venue: Gym hall
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Table-Tennis:</h3>
   <b>League Matches</b><br>
   Date: 28-02-2021 <br>
   Time: 03:00 PM <br>
   venue: Gym hall
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Basketball:</h3>
   <b>Masters</b> vs <b>Bsc</b><br>
   Date: 28-02-2021 <br>
   Time: 05:00 PM <br>
   venue: Basketball ground
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Badminton:</h3>
   <b>Apoorva</b> vs <b>Shivanand</b><br>
   Date: 29-02-2021 <br>
@@ -133,7 +154,7 @@
 
 <br><br><br><br><br>
 <h2>Past events:</h2>
-<div class="card">
+<div class="mycard">
   <h3>Cricket</h3>
   <b>BA</b> vs <b>Bsc</b> <br>
   Date:18-02-2020 <br>
@@ -141,7 +162,7 @@
   venue: Cricket ground <br>
   <b>Winner: </b>Bsc
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Kabaddi</h3>
   <b>Masters</b> vs <b>BAJMC</b> <br>
   Date:20-02-2020 <br>
@@ -149,7 +170,7 @@
   venue: Kabaddi ground <br>
   <b>Winner: </b>Masters
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Kabaddi</h3>
   <b>Bsc</b> vs <b>Certificate</b> <br>
   Date:20-02-2020 <br>
@@ -157,7 +178,7 @@
   venue: Kabaddi ground <br>
   <b>Winner: </b>Bsc
 </div>
-<div class="card">
+<div class="mycard">
   <h3>Badminton</h3>
   <b>Prakhar</b> vs <b>Shivanand</b> <br>
   Date:24-02-2020 <br>

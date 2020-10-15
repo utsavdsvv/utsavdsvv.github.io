@@ -1,4 +1,4 @@
-.card {
+.mycard {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
   transition: 0.5s;
@@ -8,10 +8,12 @@
   margin: 8px;
   padding: 12px;
   background-color: cornflowerblue;
+  width: 20em;
+  margin-left: 20px;
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+.mycard:hover {
 box-shadow: 0 4px 8px 0 rgba(0,0,0.5,1);
 }
 
@@ -24,7 +26,9 @@ h2{
   float: left;
   width: 100%;
   margin-top: 50px;
+
 }
 .ebutton{
   margin: 20px;
 }
+

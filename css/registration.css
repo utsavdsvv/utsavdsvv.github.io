@@ -6,7 +6,7 @@ body{
   background-image:url(img/21-annual-function-2.jpg);
   background-size: cover;
 }
-input, textarea{
+input, textarea, .myinput{
   border: 1px solid rgba(0, 0, 0, .1);
   border-radius: 2px;
   padding-left: 10px;
@@ -45,7 +45,7 @@ h2{
   border-color: darkblue;
 }
 
-form{
+.myform{
     background: cornflowerblue;
     border: 2px solid blueviolet;
     padding: 10px;
